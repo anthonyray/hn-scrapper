@@ -1,9 +1,10 @@
 {
   "name": "hn-scrapper",
   "version": "0.0.0",
-  "description": "A script that retrieve hacker news stories",
+  "description": "A command line tool that retrieves hacker news daily top stories and store it in a json file",
   "main": "scrap.js",
   "dependencies": {
+    "async": "~0.7.0",
     "cheerio": "~0.15.0",
     "request": "~2.34.0"
   },
@@ -11,6 +12,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonyray/hn-scrapper.git"
+  },
+  "keywords": [
+    "scrap",
+    "hackernews",
+    "async"
+  ],
+  "author": "Anthony Ray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyray/hn-scrapper/issues"
+  },
+  "homepage": "https://github.com/anthonyray/hn-scrapper"
 }
